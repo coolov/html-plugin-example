@@ -6,6 +6,12 @@ Provides an HTML entry point that is pre-compiled by webpack and augmented with 
 - Webpack can provide attributes for the script tags (L27 in webpack.config)
 - Uses `{{handlebarSyntax}} for server rendering data into the HTML template
 
+Tech:
+
+- [HTMLWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) for compiling the HTML
+- [Script Extension for HTML Webpack Plugin](https://github.com/numical/script-ext-html-webpack-plugin) for inlining scripts and augmenting script tags with arguments like `defer`
+- Lodash templates for server rendering
+
 Dev mode (Webpack dev server)
 
 ```

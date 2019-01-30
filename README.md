@@ -4,7 +4,7 @@ Provides an HTML entry point that is pre-compiled by webpack and augmented with 
 
 - Scripts can be inlined (See L28 in webpack.config)
 - Webpack can provide attributes for the script tags (L27 in webpack.config)
-- Uses `{{handlebarSyntax}} for server rendering data into the HTML template
+- Uses `{{handlebarSyntax}}` for server rendering data into the HTML template
 
 Tech:
 
